@@ -1,0 +1,16 @@
+{
+  "name": "yameenical-ai",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.36.0",
+    "node": "^20.19.6"
+  }
+}

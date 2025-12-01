@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yamic AI</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<!-- Top Bar -->
+
+<div class="chat-container">
+    <div class="top-bar" id="top-bar">
+        <div class="logo">Yamic AI</div>
+        <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+    <div class="chat-messages" id="chatMessages"></div>
+
+    <div class="chat-input-wrapper">
+        <input type="text" id="userInput" placeholder="Type your message..." />
+        <button id="sendBtn">Send</button>
+    </div>
+</div>
+
+<script src="gradient.js"></script>
+<script type="module" src="script.js"></script>
+</body>
+</html>
